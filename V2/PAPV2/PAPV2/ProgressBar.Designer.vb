@@ -33,10 +33,10 @@ Partial Class ProgressBar
         '
         Me.ProgressBar1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ProgressBar1.ForeColor = System.Drawing.Color.GhostWhite
-        Me.ProgressBar1.Location = New System.Drawing.Point(94, 293)
-        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ProgressBar1.Location = New System.Drawing.Point(125, 361)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(436, 49)
+        Me.ProgressBar1.Size = New System.Drawing.Size(581, 60)
         Me.ProgressBar1.TabIndex = 2
         '
         'Timer1
@@ -48,23 +48,23 @@ Partial Class ProgressBar
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.PAPV1.My.Resources.Resources.fistbump2
-        Me.PictureBox1.Location = New System.Drawing.Point(40, 2)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Location = New System.Drawing.Point(32, 1)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(538, 276)
+        Me.PictureBox1.Size = New System.Drawing.Size(717, 340)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
         'ProgressBar
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ProgressBar1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "ProgressBar"
         Me.Text = "Loading"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
