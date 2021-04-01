@@ -119,7 +119,7 @@ Partial Class pagina_princial
         '
         Me.Panel32.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(96, Byte), Integer))
         Me.Panel32.Controls.Add(Me.Panel33)
-        Me.Panel32.Location = New System.Drawing.Point(-20, 494)
+        Me.Panel32.Location = New System.Drawing.Point(-20, 481)
         Me.Panel32.Name = "Panel32"
         Me.Panel32.Size = New System.Drawing.Size(38, 47)
         Me.Panel32.TabIndex = 26
@@ -156,7 +156,7 @@ Partial Class pagina_princial
         Me.Btt_Defenicoes.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(96, Byte), Integer))
         Me.Btt_Defenicoes.Image = Global.PAPV1.My.Resources.Resources.icons8_order_history_32
         Me.Btt_Defenicoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Btt_Defenicoes.Location = New System.Drawing.Point(13, 494)
+        Me.Btt_Defenicoes.Location = New System.Drawing.Point(13, 481)
         Me.Btt_Defenicoes.Name = "Btt_Defenicoes"
         Me.Btt_Defenicoes.Size = New System.Drawing.Size(319, 47)
         Me.Btt_Defenicoes.TabIndex = 14
